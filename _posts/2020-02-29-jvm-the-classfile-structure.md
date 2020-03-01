@@ -2,23 +2,44 @@
 layout: post
 title:  "the-classfile-structure"
 ---
-1.2 The Java Virtual Machine
+
+# 1.2 The Java Virtual Machine		
 	- P-Code machine of UCSD Pascal
 	- knows nothing of Java programming language , only of a particular binary format, the class file format. 
 	 
-<br/>
 2.1 The class File Format
-<br/>
 
 2.2 Data TYPE
 	- primittve type 
-		- need not be tagged 
+		- need not be tagged
+		- range? 
+		- signed?
+		- default value? 
+		- two's complement
 	- reference type
 	- variables: 
 	- argument
 	- returned value
 	- jvm expect type checking before prior to run time, by compiler
-	
+
+2.4 Reference Types and Values
+   > There are three kinds of reference types: class types, array types, and interface types. 
+   
+   
+   Their values are references to dynamically created class instances, arrays, or
+class instances or arrays that implement interfaces, respectively.
+
+An array type consists of a component type with a single dimension (whose length
+is not given by the type). The component type of an array type may itself be an array
+type. If, starting from any array type, one considers its component type, and then
+(if that is also an array type) the component type of that type, and so on, eventually
+one must reach a component type that is not an array type; this is called the element
+type of the array type. The element type of an array type is necessarily either a
+primitive type, or a class type, or an interface type.
+A reference value may also be the special null reference, a reference to no object,
+which will be denoted here by null. The null reference initially has no run-time
+type, but may be cast to any type. The default value of a reference type is null.
+This specification does not mandate a concrete value encoding null.
 	
 # The Java® Virtual Machine Specification 4.1 The ClassFile Structure
 
