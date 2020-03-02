@@ -24,8 +24,20 @@ title:  "the-classfile-structure"
 
 2.4 Reference Types and Values
    > There are three kinds of reference types: class types, array types, and interface types. 
-   
-   
+		1 what is type?  -> variables ?  
+		2 Person p , Person is Class Type 
+		3 ```
+			public interface Relatable {
+        
+    // this (object calling isLargerThan)
+    // and other must be instances of 
+    // the same class returns 1, 0, -1 
+    // if this is greater than, 
+    // equal to, or less than other
+    public int isLargerThan(Relatable other);
+}
+		  ```
+      4 modifier keyword 
    Their values are references to dynamically created class instances, arrays, or
 class instances or arrays that implement interfaces, respectively.
 
