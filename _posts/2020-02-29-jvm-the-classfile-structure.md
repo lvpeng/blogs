@@ -38,6 +38,25 @@ title:  "the-classfile-structure"
 }
 		  ```
       4 modifier keyword 
+	  5 Stack , Heap , Method area
+	  6 Access Modifier: public , protected , default , private
+	  7 static, final, abstract 
+		- static : 
+		- abstract : 
+		- 
+		 ||       | public | protected | default  | private |  final | abstract |  static  |  volatile |  synchronized |
+	  8  || class |  √     |    -   	  |  √       |  -	   |	√ 	|   √      |    -     |
+		 || member | √     |    √	  |  -       |   ✔	   |    √   |   -      |    √	  |
+		 || method | √     |   		  |          |  	   |
+		 || interface | √  |   		  |        	 |  	   |		| 		   |
+		 
+		 
+		 final :　subclass can not inherits from parent class , and can not modify field with final modifier
+		 abstract: 
+		 private : subclass can access parent class 's private member
+		 static:
+		 
+	9　　how compiler control modifier 's access permission?
    Their values are references to dynamically created class instances, arrays, or
 class instances or arrays that implement interfaces, respectively.
 
