@@ -55,7 +55,10 @@ title:  "the-classfile-structure"
 		 abstract: 
 		 private : subclass can access parent class 's private member
 		 static:
-		 
+		 static method(class method): a method that is invokd without reference to a particular object . class method
+		  Class as whole, not a particular instance of class.
+		  
+		synchronized: A keyword in the Java programming language that, when applied to a method or code block, guarantees that at most one thread at a time executes that code.
 	9　　how compiler control modifier 's access permission?
    Their values are references to dynamically created class instances, arrays, or
 class instances or arrays that implement interfaces, respectively.
