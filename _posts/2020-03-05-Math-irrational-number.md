@@ -9,4 +9,7 @@ When the ratio of lengths of two line segments is an irrational number, the line
 meaning that they share no "measure" in common, that is, there is no length ("the measure"), no matter how short, 
 that could be used to express the lengths of both of the two given segments as integer multiples of itself.
 
+无理数 
+导数
+
 ===================
