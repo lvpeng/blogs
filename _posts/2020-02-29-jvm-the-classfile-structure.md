@@ -52,7 +52,7 @@ title:  "the-classfile-structure"
 		 
 		 
 		 final :　subclass can not inherits from parent class , and can not modify field with final modifier
-		 abstract: 
+		 abstract: Abstract classes may or may not include abstract methods. 1)it cannot be instantiated, but they can be subclassed. 2)abstract method : can not have method body 
 		 private : subclass can access parent class 's private member
 		 static:
 		 static method(class method): a method that is invokd without reference to a particular object . class method
