@@ -51,6 +51,10 @@ In order for B.java to compile, the compiler first needs to be able to find B.ja
 I don't get this, if both files are on the same package, why wouldn't the compiler find A?
 
 
-### Answer
+### Answer One
 
 > the dot means 'the current directory'. If you call javac from within xcom, then it will look for A.class in  xcom/xcom/A.class, and won't find it.
+
+### Answer Two
+
+> There is no operator ., the . means current directory. Since class A is in the xcom package and since, with javac, the directory hierarchy mirrors the package hierarchy, you need to have a directory in the class path from which the file xcom/A.class can be found. In your case, that is the test directory, so when you invoke javac in that directory, giving the current directory in the class path, javac will find the class xcom.A from the xcom directory.
