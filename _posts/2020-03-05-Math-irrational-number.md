@@ -10,4 +10,6 @@ meaning that they share no "measure" in common, that is, there is no length ("th
 that could be used to express the lengths of both of the two given segments as integer multiples of itself.
 
 
+
+### Elementary function
 ===================
