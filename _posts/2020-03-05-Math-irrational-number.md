@@ -12,4 +12,12 @@ that could be used to express the lengths of both of the two given segments as i
 
 
 ### Elementary function
+
+
+
+### 有界量
+
+### 等价无穷小
+
+### 无穷小和无穷大关系
 ===================
