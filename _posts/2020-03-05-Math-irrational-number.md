@@ -14,10 +14,12 @@ that could be used to express the lengths of both of the two given segments as i
 ### Elementary function
 
 
+## 极限 体现了函数的变化趋势， 存在与否， 与函数在点a处的取值无关， 即使函数在该店无定义， 极限也可能存在
 
 ### 有界量
 
 ### 等价无穷小
 
 ### 无穷小和无穷大关系
+
 ===================
