@@ -22,6 +22,6 @@ that could be used to express the lengths of both of the two given segments as i
 
 ### 无穷小和无穷大关系
 
-### 反三角函数
+### 反三角函数图像
 
 ===================
