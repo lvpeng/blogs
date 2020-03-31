@@ -22,6 +22,10 @@ that could be used to express the lengths of both of the two given segments as i
 
 ### 无穷小和无穷大关系
 
-### 反三角函数图像
+### 反三角函数
+
+### 罗尔定理 - 公众号高数叔
+
+### 导数在研究函数中的应用
 
 ===================
