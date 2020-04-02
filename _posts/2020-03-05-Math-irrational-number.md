@@ -28,4 +28,13 @@ that could be used to express the lengths of both of the two given segments as i
 
 ### 导数在研究函数中的应用 高中数学选修2-2
 
+### 平均速度， 瞬时速度(instantaneous velocity)
+### 极限
+
+###切线（tangent line）
+
+### 高中数学  信息技术公式
+
+### Where Is Times Go ? 
+
 ===================
